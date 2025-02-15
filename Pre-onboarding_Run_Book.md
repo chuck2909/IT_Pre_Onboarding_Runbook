@@ -137,6 +137,7 @@ programs.
 Run the following command:
 Get-WmiObject -Class Win32_Product | Sort-Object InstallDate | Select-Object -
 Last 5 | Format-Table Name, InstallDate**
+
 ✅ Verification: Confirm the latest installed program is logged.
 
 Step Step 9: PowerShell Script to List Running
