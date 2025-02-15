@@ -7,7 +7,8 @@ GWS GROUP
 Prepared by: Carlos R.
 Date: 02/15/
 Version: 1.
-Executive Summary
+
+# Executive Summary
 This IT Pre-Onboarding Runbook outlines the standardized process for
 preparing a new hire’s workstation and account at StackFull Software. It
 ensures that all new employees have the necessary technology setup, security
@@ -35,12 +36,15 @@ hire’s workstation and account before their first day. It ensures proper
 domain integration, security configuration, and access control following
 StackFull Software’s IT policies.
 
+
 New Hire Information
 
 Name: New Hire
 Role: Staff
 Department: Human Resources
-Steps to follow
+
+
+## Steps to follow
 Step 1: Join the Computer to the Domain
 1. Log into the workstation as a local administrator.
 2. Open System Properties:
