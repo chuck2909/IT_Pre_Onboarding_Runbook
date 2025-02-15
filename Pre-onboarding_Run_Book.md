@@ -67,6 +67,7 @@ Enter the new hire’s details:
 Username: [Insert Username]
 Password: [Insert Secure Password]
 Ensure “User must change password at next logon” is checked. Click Finish.**
+
 ✅ Verification: The user should now appear in Active Directory.
 
 Step 3: Create a Group and Assign the User
@@ -88,6 +89,7 @@ then Add:
 
 The department group (HR Team).
 Set Read & Write permissions.**
+
 ✅ Verification: Only department members can access
 the shared folder.
 
@@ -99,6 +101,7 @@ Unit (OU).
 Name the OU based on the department (e.g., HR). Move the user, group, and
 computer into the new OU.
 Drag and drop the objects into the department OU.**
+
 ✅ Verification: The new OU contains the correct user, group, and computer.
 
 Step 6: Configure Group Policy (GPO) for
@@ -138,18 +141,19 @@ Last 5 | Format-Table Name, InstallDate**
 
 Step Step 9: PowerShell Script to List Running
 Services
+
 Write a PowerShell script that gives a list of all running services and puts it in a file
 named running_services.txt.
 
 1. Open Notepad and paste the following script:
 
-# PowerShell Script to List Running Services and Save to a File
+## PowerShell Script to List Running Services and Save to a File
 
-# Get all running services
+## Get all running services
 Get-Service | Where-Object {$_.Status -eq 'Running'} | Format-Table -AutoSize |
 Out-File -FilePath "C:\running_services.txt"
 
-# Print confirmation message
+## Print confirmation message
 Write-Host "The list of running services has been saved to
 C:\running_services.txt"
 
