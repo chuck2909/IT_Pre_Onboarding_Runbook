@@ -80,6 +80,6 @@ Have suggestions or improvements? Open a **Pull Request (PR)** or start a **Disc
 ---
 
 ## 🏆 **Acknowledgment**  
-This project was completed as part of a **Windows System Administration bootcamp**, focused on practical hands-on IT security, Active Directory management, and automation with PowerShell.  
+This project was completed as part of a **Cyber Security bootcamp**, focused on practical hands-on IT security, Active Directory management, and automation with PowerShell.  
 
 🚀 **Built with a hacker mindset, IT precision, and a security-first approach.** 🔥  
