@@ -55,8 +55,10 @@ This playbook follows a structured approach to setting up a new hire’s machine
 ### ✅ **Step 8:** Use PowerShell to Audit Installed Programs  
 ### ✅ **Step 9:** Write a PowerShell Script to List Running Services  
 
-📄 **Runbook Document:** [`Pre-onboarding_Run_Book.pdf`](./Pre-onboarding_Run_Book.pdf)  
-
+📄 **Runbook Files:**
+- 📝 [Markdown Version](./Pre-onboarding_Run_Book.md) (Easier to read & edit)
+- 📂 [PDF Version](./Pre-onboarding_Run_Book.pdf) (Official document)
+  
 ---
 
 ## 🔥 **Why This Matters?**  
